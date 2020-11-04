@@ -5,7 +5,7 @@
   "main": "dist/Annotator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && cp -r ./src/res ./dist/",
+    "build": "tsc && copy -r ./src/res ./dist/",
     "prepare": "npm run build && echo 'Finish building'",
     "demo": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
